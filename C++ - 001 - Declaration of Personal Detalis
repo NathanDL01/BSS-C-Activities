@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//Declare and display variables that will introduce yourself, 
+	//with your name, age, address, phone number, school, and department.
+	
+	string name = "Nathaniel C. De Leon", address = "Mandaluyong City", school = "Rizal Technological University - Boni", dept = "Statistics";
+	int age = 21, num = 63912345678;
+	
+	cout << "\t Profile \n";
+	cout << "\n Name: " << name;
+	cout << "\n Age: " << age;
+	cout << "\n Address: " << address;
+	cout << "\n Phone Number: " << num;
+	cout << "\n School/University: " << school;
+	cout << "\n Department: " << dept;
+	
+	return 0;
+}
