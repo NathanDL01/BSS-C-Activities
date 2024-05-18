@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+float cm, inch;
+	
+	cout << "cm to inch Converter";
+	
+	cout << "\n\nEnter a length in cm: ";
+	cin >> cm;
+	
+	if (cm < 0)
+	{
+		cout << "\tINVALID INPUT\n\t  try again\n\n";
+		return main();
+	}
+	else
+	{
+		inch = cm/2.54;
+		cout << "Length in inches: " << inch;
+	}
+}
