@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+string Ans;
+
+int main()
+{
+	cout << "\t\tTrivia Time";
+	cout << "\n\nWhat is the country with the highest population? ";
+	cin >> Ans;
+	
+	if (Ans=="China")
+	{
+		cout << "\nWell Done! You answered correctly";
+	}
+	else 
+	{
+		cout << "\nNope, Try Again";
+		return main();
+	}
+}
