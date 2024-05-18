@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int userAge, x;
+	
+	cout << "\t\tEligibitily to Vote\n\n"
+	cout << "Hello User! How old are you? ";
+	cin >> userAge;
+	
+	if(userAge >= 18)
+	{
+		cout << "The applicant is eligible to vote in the elections";
+	} 
+	else
+	{
+		cout << "\nThe Applicant is not eligible to vote in the elections...";
+		x = 18 - userAge;
+		cout << "\nPlease wait " << x << " years before voting";
+	}
+	
+	return 0;
+}
