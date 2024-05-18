@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+}
+
+float classAttended, classHeld, attPerc;
+
+	cout << "How many classes did you attended? ";
+	cin >> classAttended;
+	cout << "How many classes were held? ";
+	cin >> classHeld;
+	
+	attPerc = (classAttended/classHeld)*100;
+	cout << "\n----------------------------------------------";
+	cout << "\nAre you allowed to sit-in and take the exam?";
+	cout << "\n\nPercentage of classes attended: " << attPerc << "%";
+	
+	if (attPerc < 75)
+	{
+		cout << "\nSorry, You are not allowed. Attend more classes from next time.";
+	}
+	else
+	{
+		cout << "\nYou are allowed to sit in exam.";
+	}
+	
+	return 0;
+}
