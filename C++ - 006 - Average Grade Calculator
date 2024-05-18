@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float Math, COMP1, Sci, Eng, Fil, ave;
+	
+	cout << "Average Grade Calculator";
+	cout << "\n\nEnter your grades in the following subjects:";
+
+	cout << "\n\n\tMathematics: ";
+	cin >> Math;
+	cout << "\tScience: ";
+	cin >> Sci;
+	cout << "\tCOMP1: ";
+	cin >> COMP1;
+	cout << "\tEnglish: ";
+	cin >> Eng;
+	cout << "\tFilipino: ";
+	cin >> Fil;
+	
+	ave = (Math + COMP1 + Sci + Eng + Fil) / 5;
+	cout << "\nYour Average Grade is: " << ave;
+	
+	return 0;
+}
