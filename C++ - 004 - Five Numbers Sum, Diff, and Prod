@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float a, b, c, d, e, sum, dif, prod;
+	
+	cout << "What are the five numbers? \n";
+	cin >> a >> b >> c >> d >> e;
+	
+	cout << "The inputted numbers are:";
+	cout << "\nFirst: " << a;
+	cout << "\nSecond: " << b;
+	cout << "\nThird: " << c;
+	cout << "\nFourth: " << d;
+	cout << "\nFifth: " << e;
+	
+	sum = a + b + c + d + e;
+	cout << "\n\nThe Total Sum is: " << sum;
+
+	dif = a - b - c - d - e;
+	cout << "\n\nThe Difference between the 5 numbers is: " <<  dif;
+	
+	prod = a * b * c * d * e;
+	cout << "\n\nThe Product of 5 numbers is: " << prod;
+	return 0;
+}
