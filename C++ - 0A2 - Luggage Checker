@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int weight;
+
+int main()
+{
+	cout << "\t\tLuggage Checker";
+	cout << "\n\nHow many pound does the suitcase weigh? ";
+	cin >> weight;
+	
+	if (weight >= 50)
+	{
+		cout << "\nThere is an additional 25 USD payment for the heavy luggage";
+	}
+	else
+	{
+		cout << "\nYour luggage does not exceed the limitation";
+	}
+
+	cout << "\nPleasure doing business with you";
+	return 0;
+}
