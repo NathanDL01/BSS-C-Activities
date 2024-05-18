@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float W_lbs, W_K;
+	
+	cout << "Weight Conversion: Kilos (Kg) to Pounds (lbs)";
+	
+	cout << "\n\nWhat is your weight in Kilograms? ";
+	cin >> W_K;
+	
+	W_lbs = W_K / 2.2;
+	cout << "\nYour weight in pounds is: " << W_lbs;
+	
+	return 0;
+}
+
