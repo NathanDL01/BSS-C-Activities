@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -7,7 +6,6 @@ int main()
 float cm, inch;
 	
 	cout << "cm to inch Converter";
-	
 	cout << "\n\nEnter a length in cm: ";
 	cin >> cm;
 	
