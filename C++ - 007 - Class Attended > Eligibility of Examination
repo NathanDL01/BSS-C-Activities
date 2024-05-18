@@ -1,12 +1,10 @@
 #include <iostream>
-
 using namespace std;
 
 int main ()
-}
-
-float classAttended, classHeld, attPerc;
-
+{
+	float classAttended, classHeld, attPerc;
+	
 	cout << "How many classes did you attended? ";
 	cin >> classAttended;
 	cout << "How many classes were held? ";
